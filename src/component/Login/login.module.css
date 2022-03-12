@@ -1,0 +1,89 @@
+.login {
+    width: 100%;
+    height: 572px;
+    background-image: url("../../../public/Imgs/Street-Dance-01.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    position: relative;
+}
+.login_modal {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(133, 96, 169, 0.7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login_modal h3 {
+    margin-top: 60px;
+    font-size: 16px;
+    color: rgba(213, 239, 127, 1);
+    font-family: "Source Sans Pro", sans-serif;
+}
+.login_modal h2 {
+    font-size: 24;
+    color: rgba(213, 239, 127, 1);
+    font-family: "Source Sans Pro", sans-serif;
+}
+.logo_container {
+    width: 64px;
+    height: 64px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(213, 239, 127, 1);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo_container img {
+    width: 70%;
+    height: auto;
+
+    filter: invert(100%) sepia(43%) saturate(1932%) hue-rotate(21deg) brightness(109%) contrast(83%);
+}
+.myForm {
+    width: 240px;
+    margin-top: 100px;
+}
+.username,
+.password {
+    outline: none;
+    color: black;
+    padding-left: 20px;
+    font-size: 17px;
+    width: 100%;
+    height: 40px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 20px;
+    background-color: transparent;
+    margin-top: 30px;
+}
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    font-size: 13px;
+    color: white;
+    opacity: 1; /* Firefox */
+    letter-spacing: 2px;
+}
+
+.signIn {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 100%;
+    height: 64px;
+    background-color: rgba(213, 239, 127, 1);
+    position: absolute;
+    bottom: 0;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgba(69, 50, 87, 1);
+    font-family: "Source Sans Pro", sans-serif;
+    text-decoration: none;
+    text-align: center;
+    line-height: 64px;
+}
